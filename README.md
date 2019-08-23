@@ -2,7 +2,7 @@
 ##### 2019 Hartcode program (JS Bootcamp project)
 #### Author : Suriya N Rajamani
 
-![WebsitePromo](public/images/relaxingSpaReadMe.PNG)
+![WebsitePromo](public/images/readMeimg.PNG)
 
 ## Purpose:
 Offers effective Massage treatments for back pain with supervision of highly qualified doctors and therapists and Helps customers to select, enjoy and be healthy.
