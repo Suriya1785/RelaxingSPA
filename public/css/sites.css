@@ -1,0 +1,126 @@
+    /* Padding to support responsive and overcome navigation bar */
+    
+    body {
+        padding-top: 3.5rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    footer {
+        padding-left: 1.5rem;
+    }
+    /* Error message validation color */
+    /* Success */
+    
+    #errorMsgId {
+        color: green;
+    }
+    /* failure */
+    
+    #errorMsgId.badInput {
+        color: red;
+    }
+    /* Jumbotron image */
+    
+    .bgMediumImage {
+        background-image: url("../images/keralaayurhealth.jpg");
+        background-size: 100%;
+    }
+    /*blockquote style for ancient saying about ayurveda*/
+    
+    blockquote {
+        font-family: Georgia, serif;
+        font-size: 18px;
+        font-style: italic;
+        width: 500px;
+        margin: 0.25em 0;
+        padding: 0.35em 40px;
+        line-height: 1.45;
+        position: relative;
+        color: #383838;
+    }
+    
+    blockquote:before {
+        display: block;
+        padding-left: 10px;
+        content: "\201C";
+        font-size: 80px;
+        position: absolute;
+        left: -20px;
+        top: -20px;
+        color: #5bc0de;
+    }
+    
+    blockquote:after {
+        display: block;
+        padding-left: 10px;
+        content: "\201D";
+        font-size: 80px;
+        position: absolute;
+        right: 270px;
+        top: 100px;
+        color: #5bc0de;
+    }
+    /* service card style width */
+    
+    .cardStyle {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .cardImgStyle {
+        width: 320px;
+        height: 250px;
+    }
+    /* Apply for the list items in the home page for navigation */
+    
+    .non-underline-link {
+        text-decoration: none !important;
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    
+    @media only screen and (max-width: 600px) {
+        .hideimage {
+            display: none;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1em;
+        }
+    }
+    /* Medium devices (landscape tablets, 768px and up) */
+    
+    @media only screen and (min-width: 768px) {
+        .hideimage {
+            display: initial;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+    }
+    /* Large devices (laptops/desktops, 992px and up) */
+    
+    @media only screen and (min-width: 992px) {
+        .hideimage {
+            display: initial;
+        }
+        h1,
+        h2 {
+            font-size: 2em;
+        }
+    }
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    
+    @media only screen and (min-width: 1200px) {
+        .hideimage {
+            display: initial;
+        }
+        h1,
+        h2 {
+            font-size: 2em;
+        }
+    }

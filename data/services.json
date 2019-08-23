@@ -1,5 +1,4 @@
-[
-    {
+[{
         "ServiceID": "SKIN1",
         "ServiceName": "Double Lift Pure Bliss",
         "Description": "We will lift, plump, firm and hydrate your face with the finest ingredients.",
@@ -30,7 +29,7 @@
         "Price": "340.00",
         "Minutes": "80",
         "CategoryName": "Massage and Bodywork"
-    },    
+    },
     {
         "ServiceID": "MASS2",
         "ServiceName": "Sweet Mountain Metamorphsis",
@@ -38,7 +37,7 @@
         "Price": "275.00",
         "Minutes": "110",
         "CategoryName": "Massage and Bodywork"
-    },    
+    },
     {
         "ServiceID": "MASS3",
         "ServiceName": "Craniosacral Therapy",
@@ -46,7 +45,7 @@
         "Price": "250.00",
         "Minutes": "80",
         "CategoryName": "Massage and Bodywork"
-    },   
+    },
     {
         "ServiceID": "MASS4",
         "ServiceName": "Table Thai Massage",
@@ -54,7 +53,7 @@
         "Price": "290.00",
         "Minutes": "80",
         "CategoryName": "Massage and Bodywork"
-    },    
+    },
     {
         "ServiceID": "MASS5",
         "ServiceName": "Massage for Moms-to-Be",
@@ -62,7 +61,7 @@
         "Price": "175.00",
         "Minutes": "50",
         "CategoryName": "Massage and Bodywork"
-    },    
+    },
     {
         "ServiceID": "MASS6",
         "ServiceName": "4 Hands Massage",
@@ -70,7 +69,7 @@
         "Price": "350.00",
         "Minutes": "80",
         "CategoryName": "Massage and Bodywork"
-    },    
+    },
     {
         "ServiceID": "MASS7",
         "ServiceName": "Ultimate Foot Massage",
@@ -78,7 +77,7 @@
         "Price": "110.00",
         "Minutes": "50",
         "CategoryName": "Massage and Bodywork"
-    },    
+    },
     {
         "ServiceID": "MASS8",
         "ServiceName": "Essential Touch Massage",
@@ -86,7 +85,7 @@
         "Price": "140.00",
         "Minutes": "50",
         "CategoryName": "Massage and Bodywork"
-    },    
+    },
     {
         "ServiceID": "ACU1",
         "ServiceName": "Finding Energy",
@@ -94,7 +93,7 @@
         "Price": "280.00",
         "Minutes": "110",
         "CategoryName": "Acupuncture"
-    },    
+    },
     {
         "ServiceID": "ACU2",
         "ServiceName": "Wellness",
@@ -102,7 +101,7 @@
         "Price": "140.00",
         "Minutes": "50",
         "CategoryName": "Acupuncture"
-    },    
+    },
     {
         "ServiceID": "ACU3",
         "ServiceName": "Better Sleep",
@@ -110,7 +109,7 @@
         "Price": "210.00",
         "Minutes": "80",
         "CategoryName": "Acupuncture"
-    },    
+    },
     {
         "ServiceID": "HAIR1",
         "ServiceName": "Men's Hair Cut",
@@ -118,23 +117,23 @@
         "Price": "100.00",
         "Minutes": "45",
         "CategoryName": "Hair Salon"
-    },    
+    },
     {
         "ServiceID": "HAIR2",
-        "ServiceName": "Men's Hair Cut",
-        "Description": "Women's Hair Cut",
+        "ServiceName": "Women's Hair Cut",
+        "Description": "Women's Wash, cut and dry.",
         "Price": "125.00",
         "Minutes": "60",
         "CategoryName": "Hair Salon"
-    },    
+    },
     {
         "ServiceID": "HAIR3",
-        "ServiceName": "Change!",
+        "ServiceName": "Kid's Hair Cut",
         "Description": "We will help you select a new style to completely transform your image!",
-        "Price": "210.00",
-        "Minutes": "80",
+        "Price": "30.00",
+        "Minutes": "30",
         "CategoryName": "Hair Salon"
-    },    
+    },
     {
         "ServiceID": "NAIL1",
         "ServiceName": "French manicure",
@@ -142,7 +141,7 @@
         "Price": "140.00",
         "Minutes": "75",
         "CategoryName": "Nail Salon"
-    },    
+    },
     {
         "ServiceID": "NAIL2",
         "ServiceName": "Pedicure",
@@ -150,7 +149,7 @@
         "Price": "75.00",
         "Minutes": "50",
         "CategoryName": "Nail Salon"
-    },    
+    },
     {
         "ServiceID": "NAIL3",
         "ServiceName": "Spa Pedicure",
@@ -158,7 +157,7 @@
         "Price": "140.00",
         "Minutes": "75",
         "CategoryName": "Nail Salon"
-    },    
+    },
     {
         "ServiceID": "BODY1",
         "ServiceName": "Skin Nurshing Body Polish",
@@ -166,7 +165,7 @@
         "Price": "210.00",
         "Minutes": "80",
         "CategoryName": "Body Treatments"
-    },    
+    },
     {
         "ServiceID": "BODY2",
         "ServiceName": "Mountain Mud Wrap",
@@ -174,7 +173,7 @@
         "Price": "120.00",
         "Minutes": "60",
         "CategoryName": "Body Treatments"
-    },    
+    },
     {
         "ServiceID": "BODY3",
         "ServiceName": "Blue Ridge Rain Forest",
@@ -182,7 +181,7 @@
         "Price": "75.00",
         "Minutes": "30",
         "CategoryName": "Body Treatments"
-    },    
+    },
     {
         "ServiceID": "BODY4",
         "ServiceName": "Luxurious Bath Ritual",
