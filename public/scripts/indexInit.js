@@ -195,6 +195,25 @@ function loadService(serviceItem) {
     $("#serviceDescription").html(serviceItem.Description);
     $("#servicePrice").html("$" + serviceItem.Price);
     $("#serviceDuration").html(serviceItem.Minutes + "\t" + "Mins");
+
+    //Set user rating based on 1st number of price. Will be enhanced to get user input and update database.
+    let userRatingNum = Number(serviceItem.Price.substr(0, 1));
+    let userRating = 0;
+    // clear the user rating upon each service item selection
+    $("#userRating").empty();
+    for (i = 0; i <= userRatingNum; i++) {
+        $("#userRating").append($("<span>/")
+            .attr("class", "fa fa-star text-warning checked"));
+        userRating = i + 1;
+        if (i >= 4) {
+            break;
+        }
+    }
+    while (userRating < 5) {
+        $("#userRating").append($("<span>/")
+            .attr("class", "fa fa-star"));
+        userRating++;
+    }
     //Show the service card upon successful loading of service info
     $("#serviceCard").show();
 }
