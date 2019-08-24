@@ -79,6 +79,7 @@ function showServices() {
     $("#services").attr("class", "active");
     $("#categoryContainer").show();
     $("#featureContainer").show();
+    $("a").removeClass("bg-info");
 
     //Add fixed-bottom to show the footer at the bottom during service section launch
     $("#footerDiv").addClass("fixed-bottom");
