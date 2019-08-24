@@ -68,7 +68,7 @@
     }
     
     .cardImgStyle {
-        width: 320px;
+        width: 100%;
         height: 250px;
     }
     /* Apply for the list items in the home page for navigation */

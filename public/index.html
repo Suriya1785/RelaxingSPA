@@ -81,32 +81,32 @@
         <!-- Feature/Service Section-->
         <div class="container" id="featureContainer">
             <div class="row dropdown text-center">
-                <button class="ml-1 button btn-info dropdown-toggle" id="selectCategory" name="selectCategory" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="ml-1 mt-2 button btn-info dropdown-toggle" id="selectCategory" name="selectCategory" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Select a Category
                </button>
-                <!-- Below has error for x-placement not allowed due to bootstrap class-->
+                <!-- Below has HTML validation error for x-placement & x-out-of-boundaries not allowed due to bootstrap class-->
                 <div class="dropdown-menu" id="categoryList" aria-labelledby="selectCategory">
                 </div>
             </div>
             <!-- Category and Service Details-->
             <section class="row hidden container container-padded" id="categoryContainer">
                 <div class="col-md-4" id="servicesDiv">
-                    <h3 id="categoryName" class="text-center">&nbsp;</h3>
+                    <!-- Aligned right which helps to display the dropdown category without hiding the displayed results-->
+                    <h3 id="categoryName" class="text-right">&nbsp;</h3>
                     <!-- service section to display the list of services and service details / Dynamically populated-->
-                    <ul id="servicesList" class="text-left"></ul>
+                    <ul id="servicesList" class="text-right"></ul>
                 </div>
                 <!-- bootstrap card usage to display the massage service details-->
                 <div class="hidden col-md-8" id="serviceCard">
-                    <div class="card mb-4 box-shadow cardStyle">
+                    <div class="card mb-4 box-shadow cardStyle border-info">
                         <!-- card header with image top-->
-                        <div class="card-header">
-                            <!-- source and alt attribute is set in javascript-->
+                        <div class="card-header text-center">
+                            <h3 id=serviceName>&nbsp;</h3>
                         </div>
-                        <img class="card-img-top cardImgStyle text-center" src="#" alt="#" id="cardImg">
+                        <img class="card-img-top cardImgStyle text-left" src="#" alt="#" id="cardImg">
                         <div class="card-body">
                             <!-- card h1 tag is changed to h3 due to html checker warning-->
-                            <h3 id=serviceName>&nbsp;</h3>
-                            <h3 class="card-title pricing-card-title" id="servicePrice"><small class="text-muted">&nbsp;</small></h3>
+                            <h4 class="card-title pricing-card-title" id="servicePrice"></h4>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li id="serviceDescription">&nbsp;</li>
                                 <li id="serviceDuration">&nbsp;</li>
@@ -115,16 +115,16 @@
                     </div>
                 </div>
             </section>
-            <!-- Error message block for server responses-->
-            <div>
-                <p id="errorMsgId"></p>
-            </div>
+        </div>
+        <!-- Error message block for server responses -->
+        <div>
+            <p id="errorMsgId"></p>
         </div>
     </main>
 
     <hr />
 
-    <footer class="footer">
+    <footer class="footer" id="footerDiv">
         <!-- Start of footer -->
         <!-- links to our parental sites-->
         <div class="row justify-content-center">
