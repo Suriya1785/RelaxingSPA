@@ -2,6 +2,8 @@
 ##### 2019 Hartcode program (JS Bootcamp project)
 #### Author : Suriya N Rajamani
 
+Website URL: http://localhost:8081/index.html
+
 ![WebsitePromo](public/images/readMeimg.PNG)
 
 ## Purpose:
@@ -22,20 +24,20 @@ Provides various Ayurveda panchakarma treatments with effective plans
 - Options to search courses by category from the dropdown list. Upon selection, it lists down the list of courses under the selected category from our learning center collections.
 - Upon selection of courses, it provides brief note on them and link to detail courses page.
 
-##Server setup and start
+## Server setup and start
 This assumes that the user has Node.js installed globally on their machine.
 
-#####Installing the Express framework into the application and setting up the folders:
+##### Installing the Express framework into the application and setting up the folders:
 - First, clone or copy project from GitHub down to a folder on your machine
 - Your folder setup should look like this (folder is an example):
 
-######Main Folder:
+###### Main Folder:
 C:>RelaxingSPA place the server.js under here
 
-######subfolders under RelaxingSPA:
+###### subfolders under RelaxingSPA:
 data (where the JSON data files would be placed) public (this is your "root" directory)
 
-######subfolders under public: 
+###### subfolders under public: 
 css(your styles.css) images (any images) scripts (your js scripts other than server.js)
 - Go to your command prompt
 - Under your folder for the application, install the Express framework using NPM by typing:
