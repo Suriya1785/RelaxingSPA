@@ -185,6 +185,45 @@ function getService(service) {
  * calls: None
  */
 function loadService(serviceItem) {
+
+    //Dynamically create the div and its child for service card & Clear them before populating new item
+    $("#serviceCard").empty();
+    // Create card div, header, image and body & assign ID for futher reference
+    $("#serviceCard")
+        .append(($("<div/>")
+            .attr("class", "card mb-4 box-shadow cardStyle border-info")
+            .append($("<div/>")
+                .attr("class", "card-header text-center")
+                .attr("id", "cardHead")
+                .append($("<h3/>")
+                    .attr("id", "serviceName")
+                    .text("&nbsp;")))
+            .append($("<img/>")
+                .attr("class", "card-img-top cardImgStyle text-left")
+                .attr("id", "cardImg"))
+            .append($("<div/>")
+                .attr("class", "card-body")
+                .attr("id", "cardBody"))));
+    $("#cardBody")
+        .append($("<h4/>")
+            .attr("id", "servicePrice")
+            .attr("class", "card-title pricing-card-title"))
+        .append($("<ul/>")
+            .attr("class", "list-unstyled mt-3 mb-4")
+            .attr("id", "cardUl"))
+        .append($("<span/>")
+            .attr("class", "heading")
+            .text("User Rating"))
+        .append($("<p/>")
+            .attr("id", "userRating"));
+
+    $("#cardUl").append($("<li/>")
+            .attr("id", "serviceDescription")
+            .text("&nbsp;"))
+        .append($("<li/>")
+            .attr("id", "serviceDuration")
+            .text("&nbsp;"));
+
     //first 3 characters of serviceID will match the image name to populate the images
     let imgName = serviceItem.ServiceID.substr(0, 3) + ".jpg";
     $("#cardImg").attr("src", "images/" + imgName);
@@ -203,7 +242,7 @@ function loadService(serviceItem) {
     // clear the user rating upon each service item selection
     $("#userRating").empty();
     for (i = 0; i <= userRatingNum; i++) {
-        $("#userRating").append($("<span>/")
+        $("#userRating").append($("<span/>")
             .attr("class", "fa fa-star text-warning checked"));
         userRating = i + 1;
         if (i >= 4) {
@@ -211,7 +250,7 @@ function loadService(serviceItem) {
         }
     }
     while (userRating < 5) {
-        $("#userRating").append($("<span>/")
+        $("#userRating").append($("<span/>")
             .attr("class", "fa fa-star"));
         userRating++;
     }
